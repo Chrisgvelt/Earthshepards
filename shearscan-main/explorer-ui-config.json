@@ -1,0 +1,6 @@
+{
+  "shear": {
+    "substrateRpcUrlArray": ["wss://www.sheartoken.com"],
+    "explorerWsUrlArray": ["wss://wss.sheartoken.com/graphql-ws"]
+  }
+}

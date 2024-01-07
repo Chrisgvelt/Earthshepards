@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "cli",
+    "executor",
+    "inspect",
+    "primitives",
+    "rpc",
+    "runtime",
+    "pallets/marketplace",
+    "testing"
+]
+[profile.release]
+panic = "unwind"
+
+[patch.'https://github.com/paritytech/substrate']
+pallet-treasury = { git = "https://github.com/earthshepards/pallet-treasury", branch = "main" }
+# pallet-treasury = { path = "../pallet-treasury" }
